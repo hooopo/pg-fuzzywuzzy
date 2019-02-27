@@ -1,0 +1,8 @@
+results/
+*.so
+tmp/
+*.o
+regression.diffs
+regression.out
+/sql/fuzzywuzzy--*
+!/sql/fuzzywuzzy--*--*.sql

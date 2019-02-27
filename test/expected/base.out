@@ -1,0 +1,45 @@
+\set ECHO none
+-- You should write your tests
+SELECT ratio('foo', 'bar');
+ ratio 
+-------
+     0
+(1 row)
+
+SELECT ratio('foo', 'foo');
+ ratio 
+-------
+   100
+(1 row)
+
+SELECT ratio('你好', '你好世界');
+ ratio 
+-------
+    67
+(1 row)
+
+SELECT ratio('hello', 'hello world');
+ ratio 
+-------
+    63
+(1 row)
+
+SELECT ratio('', '');
+ ratio 
+-------
+     0
+(1 row)
+
+SELECT ratio(null, 'hello');
+ ratio 
+-------
+     0
+(1 row)
+
+SELECT ratio(null, null);
+ ratio 
+-------
+     0
+(1 row)
+
+ROLLBACK;

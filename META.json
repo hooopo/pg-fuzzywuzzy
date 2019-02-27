@@ -1,0 +1,28 @@
+{
+    "name": "fuzzywuzzy",
+    "abstract": "fuzzywuzzy ratio for postgres",
+    "description": "Fuzzy string matching like a boss. It uses Levenshtein Distance to calculate the differences between sequences in a simple-to-use package",
+    "version": "0.0.1",
+    "maintainer": "Hooopo",
+    "license": "postgresql",
+    "provides": {
+        "fuzzywuzzy": {
+            "abstract": "fuzzywuzzy ratio for postgres",
+            "file": "sql/fuzzywuzzy.sql",
+            "docfile": "doc/fuzzywuzzy.md",
+            "version": "0.0.1"
+        }
+    },
+    "release_status": "unstable",
+
+    "generated_by": "Hooopo",
+    "tags": [
+        "match",
+        "ratio",
+        "similar"
+    ],
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
